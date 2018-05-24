@@ -1,5 +1,5 @@
 var ExtendableBuiltin = require("./extendablebuiltin");
-var inherits = require("util").inherits;
+var inherits = require("inherits");
 
 inherits(ExtendableError, ExtendableBuiltin(Error));
 
